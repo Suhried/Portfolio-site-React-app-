@@ -1,0 +1,229 @@
+.topFixedBanner{
+    background-image: url("../image/front.jpg");
+    min-height: 496px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBannerOverlay{
+    position: absolute;
+    min-height: 496px;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+.topContent{
+    margin-top: 10rem;
+}
+.topTitle{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: bisque;
+    font-size: 60px;
+}
+.topSubTitle{
+    font-family: 'Festive', cursive;
+    font-weight: 600;
+    color: azure;
+    font-size: 40px;
+}
+.serviceName{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2rem;
+    color: deepskyblue;
+    margin-bottom: 2rem;
+}
+.containerSlider{
+    height: 200px;
+}
+.image{
+    height: 150px;
+}
+
+.marginCard{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+}
+.marginCard:hover{
+    box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
+}
+.justifyContent{
+    justify-content: right;
+}
+.navTitle{
+    font-family: 'Oswald', sans-serif;
+    color: azure !important;
+    font-weight: 700;
+    font-size: 28px;
+}
+.navTitleScroll{
+    font-family: 'Oswald', sans-serif;
+    color: deepskyblue !important;
+    font-weight: 700;
+    font-size: 28px;
+}
+.nav{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    color: rgba(0,0,0,0.1) !important;
+}
+.navScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: white !important;
+    box-shadow: 0 0 6px 0 rgba(0,115,230,0.3);
+}
+.navItems{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.navItems:hover{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navItemsScroll{
+    color: #282c34 !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.summaryContent{
+    height: 5rem;
+
+}
+.summary{
+    height: 100px;
+}
+.bannerSummary{
+    background-image: url("../image/front.jpg");
+    min-height: 450px;
+    margin-top: 5rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summaryItem{
+    margin-top: 3rem;
+}
+.colorCheck{
+    color: deepskyblue;
+}
+.projectsCard{
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+}
+.projectsCard:hover{
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
+}
+
+.imgCourse{
+    height: 200px;
+    width: 250px;
+    margin-top: 1rem;
+}
+.courseBack{
+    background-color: rgb(238,240,244);
+    min-height: 450px;
+    min-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+}
+.txtCourse{
+    margin-top: 1rem;
+}
+.videoCard{
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+    margin-top: 6rem;
+    height: 400px;
+    width: auto;
+}
+.videoCard:hover{
+    box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
+}
+.videoIcon{
+    color: deepskyblue;
+    font-size: 50px;
+    cursor: pointer;
+}
+.videoTitle{
+    font-family: 'Oswald', sans-serif;
+    color: deepskyblue;
+    font-weight: 700;
+    font-size: 28px;
+}
+.player{
+    margin-top: 8rem;
+    width: 1280px;
+}
+.circleImg{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0073E6;
+    border-radius: 50%;
+}
+.footerBack{
+    background-color: deepskyblue;
+    min-height: 2px;
+    min-width: 100%;
+    margin-top: 5rem;
+}
+.footer{
+    margin-top: 4rem;
+    text-align: left;
+    min-width: 92%;
+
+}
+.copyright{
+    background-color: deepskyblue;
+    height: 50px;
+    min-height: 100%;
+    min-width: 100%;
+    margin-top: 3rem;
+
+}
+.topFixedServices{
+    background-image: url("../image/front.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topServicesOverlay{
+    position: absolute;
+    min-height: 300px;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+.topServicesContent{
+    margin-top: 7rem;
+}
+.topServiceTitle{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: bisque;
+    font-size: 60px;
+}
+.videoSize{
+    height: 20px;
+    padding-left: 600px;
+}

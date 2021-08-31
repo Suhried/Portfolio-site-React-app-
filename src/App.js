@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Homepage from "./pages/homepage/homepage";
+import TopBanner from "./component/topBanner/topBanner";
+import TopNavigation from "./component/topNavigation/topNavigation";
+import PageTop from "./component/pageTop/pageTop";
+import AboutPage from "./pages/homepage/aboutPage";
+import PortfolioPage from "./pages/homepage/portfolioPage";
+import ContactSpa from "./pages/homepage/contactSPA";
+import ServiceSpa from "./pages/homepage/serviceSPA";
+import {BrowserRouter} from "react-router-dom";
+import PageRoute from "./router/pageRoute";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <BrowserRouter>
+            <PageRoute/>
+        </BrowserRouter>
     </div>
   );
 }
-
 export default App;

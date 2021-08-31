@@ -3,12 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
     "react": "^17.0.2",
+    "react-back-to-top-button": "^0.0.14",
+    "react-bootstrap": "^1.6.1",
+    "react-countup": "^4.4.0",
     "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-visibility-sensor": "^5.1.1",
+    "recharts": "^2.0.9",
+    "redux": "^4.1.0",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.14.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +51,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/preset-react": "^7.14.5"
   }
 }
