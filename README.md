@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Here I have used React for frontend and Lumen for Rest API's.
+
 ## Available Scripts
 
 In the project directory, you can run:
